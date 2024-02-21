@@ -1,0 +1,15 @@
+# Je créer un dossier spécialement pour l'exo
+mkdir exercice
+cd exercice
+
+# Je créer Thierry et Albert avec tous les dossiers et sous-dossiers
+mkdir Thierry Albert
+mkdir Thierry/Photos Thierry/Travail
+mkdir Thierry/Travail/Client1 Thierry/Travail/Client2 Thierry/Travail/Client3
+touch Thierry/Travail/Client1/CL1.txt Thierry/Travail/Client2/CL2.txt Thierry/Travail/Client3/CL3.txt
+
+# Je crée Albert et tous les sous-dossiers
+mkdir Albert/Compta Albert/Images
+mkdir Albert/Compta/2011 Albert/Compta/2012 Albert/Compta/2013 Albert/Compta/2014
+touch Albert/Compta/2011/2011 Albert/Compta/2012/2012 Albert/Compta/2013/2013 Albert/Compta/2014
+

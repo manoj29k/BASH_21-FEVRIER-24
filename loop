@@ -1,0 +1,23 @@
+i=1
+resultat=30
+# Genere un nombre au hasard entre 1 et 100
+# random_number est un nombre au hasard entre 1 et 100
+random_number=$((1 + RANDOM % 100))
+
+echo $random_number
+
+# Ici je rentre dans une boucle infini
+while [ $i -eq 1 ]
+do
+    # Ici je vais demander a l'utilisateur de trouver la valeur de resultat
+    echo "Quelle est la valeur du nombre aléatoire ?"
+    read
+    if [ $REPLY -eq $random_number ]
+    then
+        echo "Bien joué !"
+        break
+    else
+        echo "Mauvaise réponse !"
+    fi
+done
+

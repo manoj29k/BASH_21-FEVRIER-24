@@ -1,0 +1,15 @@
+echo "Bienvenue dans le quizz"
+echo "Premiere question : "
+echo "Qui est le prof ?"
+echo "1 - Toto"
+echo "2 - Imed"
+echo "3 - Said"
+echo "4 - Samy"
+echo "Veuillez taper votre réponse"
+read 
+if [ $REPLY -eq 2 ]
+then
+echo "Bonne réponse"
+else
+echo "Mauvaise réponse"
+fi
